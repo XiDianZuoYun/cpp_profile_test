@@ -1,0 +1,29 @@
+reader  1802 10176.220392:     250000 cpu-clock:uhpppH: 
+	    55eda2515dbd _ZSt7forwardIlEOT_RNSt16remove_referenceIS0_E4typeE+0x10 (/home/komonzhang/cpptest/reader)
+	    55eda2515de3 _ZNSt16allocator_traitsISaIlEE9constructIlJlEEEvRS0_PT_DpOT0_+0x24 (/home/komonzhang/cpptest/reader)
+	    55eda2515b10 _ZNSt6vectorIlSaIlEE12emplace_backIJlEEEvDpOT_+0x50 (/home/komonzhang/cpptest/reader)
+	    55eda2515806 _ZNSt6vectorIlSaIlEE9push_backEOl+0x32 (/home/komonzhang/cpptest/reader)
+	    55eda25154b3 _Z11ReadFromShmPv+0x128 (/home/komonzhang/cpptest/reader)
+	    55eda25155fa main+0xed (/home/komonzhang/cpptest/reader)
+	    7ff3b0b2c083 __libc_start_main+0xf3 (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+
+reader  1802 10176.722001:     250000 cpu-clock:uhpppH: 
+	    7ff3b0f09464 do_futex_wait.constprop.0+0x44 (/usr/lib/x86_64-linux-gnu/libpthread-2.31.so)
+	              80 [unknown] ([unknown])
+
+reader  1802 10177.324375:     250000 cpu-clock:uhpppH: 
+	    55eda25155f2 main+0xe5 (/home/komonzhang/cpptest/reader)
+	    7ff3b0b2c083 __libc_start_main+0xf3 (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+
+reader  1802 10181.036798:     250000 cpu-clock:uhpppH: 
+	    7ff3b0f09454 do_futex_wait.constprop.0+0x34 (/usr/lib/x86_64-linux-gnu/libpthread-2.31.so)
+	              80 [unknown] ([unknown])
+
+reader  1802 10181.538781:     250000 cpu-clock:uhpppH: 
+	    7ff3b0f0a0a0 __pthread_disable_asynccancel+0x0 (/usr/lib/x86_64-linux-gnu/libpthread-2.31.so)
+	              80 [unknown] ([unknown])
+
+reader  1802 10182.793184:     250000 cpu-clock:uhpppH: 
+	    55eda251550c _Z11ReadFromShmPv+0x181 (/home/komonzhang/cpptest/reader)
+	    7ff3b0b2c083 __libc_start_main+0xf3 (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
+

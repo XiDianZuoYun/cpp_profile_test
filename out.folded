@@ -1,0 +1,5 @@
+reader;[unknown];__pthread_disable_asynccancel 1
+reader;[unknown];do_futex_wait.constprop.0 2
+reader;__libc_start_main;_Z11ReadFromShmPv 1
+reader;__libc_start_main;main 1
+reader;__libc_start_main;main;_Z11ReadFromShmPv;_ZNSt6vectorIlSaIlEE9push_backEOl;_ZNSt6vectorIlSaIlEE12emplace_backIJlEEEvDpOT_;_ZNSt16allocator_traitsISaIlEE9constructIlJlEEEvRS0_PT_DpOT0_;_ZSt7forwardIlEOT_RNSt16remove_referenceIS0_E4typeE 1
